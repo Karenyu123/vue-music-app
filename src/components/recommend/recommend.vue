@@ -88,6 +88,7 @@
     width: 100%
     top: 88px
     bottom: 0
+    z-index: 100
     .recommend-content
       background #222222
       .swiper-container

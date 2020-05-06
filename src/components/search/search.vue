@@ -1,11 +1,12 @@
 <template>
   <div class="search">
     <div class="search-box-wrapper">
-      <search-box 
-        @refreshScroll="refreshScroll" 
-        ref="searchBox" 
-        @fetchQuery="fetchQuery" 
-        :parentQuery='parentQuery'></search-box>
+          <search-box 
+            @refreshScroll="refreshScroll" 
+            ref="searchBox" 
+            @fetchQuery="fetchQuery" 
+            @clearSearch="clearSearch"
+            :parentQuery='parentQuery'></search-box>
     </div>
     <scroll :data="searchHistory" class="shortcut-wrapper"  v-show="!query">
       <div class="shortcut" ref="shortcut">
@@ -70,9 +71,15 @@ import { mapGetters } from 'vuex'
     mounted() {
       this.$set(this.height, 'height', `calc(100vh - ${this.$refs.shortcut.offseTop}px)`)
     },
+    activated() {
+      this.$refs.scroll.refresh()
+    },
     methods: {
       refreshScroll() {
         this.$refs.shortcut.style.paddingBottom = '60px'
+        this.$refs.scroll.refresh()
+      },
+      clearSearch() {
         this.$refs.scroll.refresh()
       },
       historySearch(name) {
@@ -100,19 +107,23 @@ import { mapGetters } from 'vuex'
 <style lang="stylus" rel="stylesheet/stylus">
   @import "~common/stylus/variable"
   @import "~common/stylus/mixin"
-
   .search
     .search-box-wrapper
-      margin: 20px
+      padding 20px
+      background $color-background
     .shortcut-wrapper
-      position: fixed
-      top: 178px
-      bottom: 0
-      width: 100%
+      height calc(100vh - 90px)
       .shortcut
-        // height 600px
+        position: fixed
+        top: 178px
+        bottom: 0
+        width: 100%
+        min-height 600px
+        background $color-background
+        // height calc(100vh - 90px)
         // overflow: hidden
         .hot-key
+          padding-top 10px
           margin: 0 20px 20px 20px
           .title
             margin-bottom: 20px

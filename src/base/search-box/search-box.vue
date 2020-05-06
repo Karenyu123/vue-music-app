@@ -7,7 +7,6 @@
 </template>
 
 <script>
-import { debounce } from '../../common/js/utils'
   export default {
     name: 'search-box',
     props: {
@@ -28,6 +27,7 @@ import { debounce } from '../../common/js/utils'
     methods: {
       clear() {
         this.query = ''
+        this.$emit('clearSearch')
       },
       handleHotSearch(item) {
         this.query = item

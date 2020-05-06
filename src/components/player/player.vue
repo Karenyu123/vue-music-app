@@ -178,6 +178,10 @@ import Lyric from 'lyric-parser'
     },
     created() {
       this.touches = {}
+      this.currentShow = 'cd'
+    },
+    activated() {
+      this.currentShow = 'cd'
     },
     methods: {
       showPlaylist() {

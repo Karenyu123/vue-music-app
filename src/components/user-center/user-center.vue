@@ -1,7 +1,7 @@
 <template>
   <transition name="slide">
     <div class="user-center">
-      <div class="back">
+      <div class="back" @click="back">
         <i class="icon-back"></i>
       </div>
       <div class="switches-wrapper">
@@ -12,7 +12,6 @@
         <span class="text">随机播放</span>
       </div>
       <div class="list-wrapper">
-
       </div>
     </div>
   </transition>
@@ -37,6 +36,9 @@ import Switches from '../../base/switches/switches'
     methods: {
       handleSwitch(index) {
         this.currentIndex = index
+      },
+      back() {
+        this.$router.go(-1)
       } 
     }
   }
