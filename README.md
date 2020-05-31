@@ -30,21 +30,21 @@
 
   首页
 
-<img src="https://i.loli.net/2020/05/06/Go72DardtTliNBY.png" alt="首页.png" style="zoom: 33%;" />
+<img src="https://i.loli.net/2020/05/06/Go72DardtTliNBY.png" alt="首页.png" width = "300"  div align=center />
 
 ​    歌单页面
 
-<img src="https://i.loli.net/2020/05/06/C2sRZAEarWHD6Gn.png" alt="播放页面.png" style="zoom: 33%;" />
+<img src="https://i.loli.net/2020/05/06/C2sRZAEarWHD6Gn.png" alt="播放页面.png" width = "300"  div align=center />
 
 
 
   歌手页面
 
-<img src="https://i.loli.net/2020/05/06/RGPIrOQUgpY5iJk.png" alt="歌手页面.png" style="zoom: 33%;" />
+<img src="https://i.loli.net/2020/05/06/RGPIrOQUgpY5iJk.png" alt="歌手页面.png" width = "300"  div align=center />
 
   歌手详情页面
 
-<img src="https://i.loli.net/2020/05/06/9NcBPhTnu7Fe5jZ.png" alt="歌手.png" style="zoom: 33%;" />
+<img src="https://i.loli.net/2020/05/06/9NcBPhTnu7Fe5jZ.png" alt="歌手.png" width = "300"  div align=center />
 
 
 
@@ -54,25 +54,25 @@
 
   排行榜页面
 
-<img src="https://i.loli.net/2020/05/06/tOH7xK4uQnlM92F.png" alt="排行榜.png" style="zoom: 33%;" />
+<img src="https://i.loli.net/2020/05/06/tOH7xK4uQnlM92F.png" alt="排行榜.png" width = "300"  div align=center />
 
   榜单列表页面
 
-<img src="https://i.loli.net/2020/05/06/IWebRzirGqQohHc.png" alt="榜单详情.png" style="zoom: 33%;" />
+<img src="https://i.loli.net/2020/05/06/IWebRzirGqQohHc.png" alt="榜单详情.png" width = "300"  div align=center />
 
   搜索页面
 
-<img src="https://i.loli.net/2020/05/06/WalPDZBwFtd3kQr.png" alt="搜索页面.png" style="zoom: 33%;" />
+<img src="https://i.loli.net/2020/05/06/WalPDZBwFtd3kQr.png" alt="搜索页面.png" width = "300"  div align=center />
 
    播放器页面
 
-<img src="https://i.loli.net/2020/05/06/O4lvbAiIVLsYBTn.png" alt="2020-05-06_094256.png" style="zoom: 33%;" />
+<img src="https://i.loli.net/2020/05/06/O4lvbAiIVLsYBTn.png" alt="2020-05-06_094256.png" width = "300"  div align=center />
 
 
 
 歌词页面
 
-<img src="https://i.loli.net/2020/05/06/2qJAHMSNZWBY5Rj.png" alt="歌词.png" style="zoom: 33%;" />
+<img src="https://i.loli.net/2020/05/06/2qJAHMSNZWBY5Rj.png" alt="歌词.png" width = "300"  div align=center />
 
 
 
